@@ -21,15 +21,14 @@
 <body>
 
   <!-- Container for demo purpose -->
-  <div class="container mt-1 mx-auto">
+  <!-- <div class="container mt-1 mx-auto">
 
-    <!-- Section: Design Block -->
     <section class="mb-1">
       <div
         class="bg-red-500 alert alert-dismissible fade show rounded-lg py-4 px-6 text-white md:flex justify-between items-center text-center md:text-left">
         <div class="mb-4 md:mb-0 flex items-center flex-wrap justify-center md:justify-start">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 h-4 mr-2">
-            <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+           
             <path fill="currentColor"
               d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z" />
           </svg>
@@ -48,16 +47,15 @@
         </div>
       </div>
     </section>
-    <!-- Section: Design Block -->
-
-  </div>
+    
+  </div> -->
   <!-- Container for demo purpose -->
 
 
 
   <!-- First Navbar -->
   <nav
-    class=" relative w-full flex flex-wrap items-center justify-around  py-2 bg-gray-100 text-gray-500  hover:text-gray-700  focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light ">
+    class=" mt-0 fixed w-full z-10 top-0 w-full flex flex-wrap items-center justify-around  py-2 bg-gray-100 text-gray-500  hover:text-gray-700  focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid w-full lg:w-[80%] flex flex-wrap items-center justify-between px-6">
       <button class="  navbar-toggler text-gray-500 border-0 hover:shadow-none hover:no-underline
         py-2 px-2.5  bg-transparent  focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
@@ -73,8 +71,10 @@
       </button>
       <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
         <a class="flex items-center  object-fill  mt-2  lg:mt-0  mr-1 " href="#">
-          <img class="object-contain  h-12 w-96 " src="images/gradeupimg.png" alt="not found" loading="lazy" />
-          
+          <!-- <img class="object-contain  h-12 w-96 " src="images//gradeupimg-removebg-preview.png" alt="not found" loading="lazy" /> -->
+          <img class="object-contain  h-14 w-110 " src="images//gradeupimg-removebg-preview.png" alt="not found"
+            loading="lazy" />
+
         </a>
         <!-- Left links -->
         <ul class="navbar-nav flex flex-col pl-0 list-style-none ml-auto">
@@ -112,10 +112,9 @@
 
 
 
-  <!-- Container for demo purpose -->
-  <div>
+  <!-- Animation Moving -->
+  <!-- <div>
 
-    <!-- Section: Design Block -->
     <section class="mb-12 background-radial-gradient overflow-hidden">
       <style>
         .background-radial-gradient {
@@ -188,13 +187,7 @@
           }
         }
 
-        /* @keyframes sphere1 {
-        0%   { left:0px; top:0px;}
-        25%  { left:200px; top:0px;}
-        50%  { left:200px; top:200px;}
-        75%  { left:0px; top:200px;}
-        100% { left:0px; top:0px;}
-      } */
+        
        
 
         .bg-glass {
@@ -219,8 +212,8 @@
 
 
             <div class="mb-12 lg:mb-0 relative">
-              <!-- <div id="radius-shape-1" class="absolute rounded-full shadow-lg"></div>
-              <div id="radius-shape-2" class="absolute shadow-lg"></div> -->
+              <div id="radius-shape-1" class="absolute rounded-full shadow-lg"></div>
+              <div id="radius-shape-2" class="absolute shadow-lg"></div>
 
               <img class="relative shadow-lg" id="tution" src="https://www.pw.live/version12/assets/img/pathshala.svg"
                 alt="">
@@ -233,10 +226,31 @@
         </div>
       </div>
     </section>
-    <!-- Section: Design Block -->
+    
+
+  </div> -->
+  <!-- Animation Moving -->
+
+
+
+  <!-- Carousel Video Section -->
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade relative" data-bs-ride="carousel">
+    <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+
+    </div>
+    <div class="carousel-inner relative w-full overflow-hidden">
+      <div class="carousel-item active relative float-left w-full">
+        <video class="w-full" autoplay loop muted>
+          <source src="video/CarouselVideo.mp4" type="video/mp4" />
+        </video>
+
+      </div>
+
+    </div>
 
   </div>
-  <!-- Container for demo purpose -->
 
 
 
@@ -446,10 +460,31 @@
         <img class="h-12" src="images/gradeupimg.png" alt="Not Found">
 
       </a>
-      <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© All Rights
-        are reserved . Made By Ashish Rai
 
-      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-white" href="index.html">
+          Home
+        </a>
+        <a class="ml-3 text-white" href="about.html">
+          About
+        </a>
+        <a class="ml-3 text-white" href="course.html">
+          Course
+        </a>
+        <a class="ml-3 text-white" href="result.html">
+          Result
+        </a>
+        <a class="ml-3 text-white" href="blog.html">
+          Blog
+        </a>
+        <a class="ml-3 text-white" href="contact.html">
+          Contact
+        </a>
+      </span>
+
+      <!-- <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© All Rights are reserved.
+      </p> -->
+
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         <a class="text-white">
           <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
@@ -502,6 +537,42 @@
 
 
 
+  <script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?46740';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+      "enabled": true,
+      "chatButtonSetting": {
+        "backgroundColor": "#4dc247",
+        "ctaText": "",
+        "borderRadius": "25",
+        "marginLeft": "0",
+        "marginBottom": "100",
+        "marginRight": "25",
+        "position": "right"
+      },
+      "brandSetting": {
+        "brandName": "AshishRai",
+        "brandSubTitle": "Software Developer",
+        "brandImg": "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+        "welcomeText": "Hi there!\nHow can I help you?",
+        "messageText": "Hello , What will be the cost of developing ",
+        "backgroundColor": "#0a5f54",
+        "ctaText": "Start Chat",
+        "borderRadius": "25",
+        "autoShow": false,
+        "phoneNumber": "919650639096"
+      }
+    };
+    s.onload = function () {
+      CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  </script>
 
 
   <script src="js/topToBottom.js"></script>
