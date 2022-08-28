@@ -8,7 +8,7 @@ var options = {
     "enabled": true,
     "chatButtonSetting": {
         "backgroundColor": "#4dc247",
-        "ctaText": "Message Us",
+        "ctaText": "",
         "borderRadius": "25",
         "marginLeft": "0",
         "marginBottom": "100",
